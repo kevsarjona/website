@@ -1,0 +1,318 @@
+
+
+@font-face {
+    font-family:'Segoe Script' ;
+    src: local('Segoe Script'), url(../fuentes/segoe-script-2.ttf);    
+}
+
+@font-face {
+    font-family:'Lucida Sans Italic' ;
+    src: local('Lucida Sans Italic') url(../fuentes/Lucida\ Sans\ Italic.ttf);
+}
+
+@font-face {
+    font-family:'Segoe UI' ;
+    src:local('Segoe UI') url(../fuentes/Segoe\ UI.ttf);
+}
+
+*{
+    margin: 0;
+}
+
+a{
+    color: rgb(105, 30, 190);
+    text-decoration: none;
+}
+
+main{
+    text-align: center;
+    padding: 4% 10% 4% 10% ;
+
+}
+
+.logo{
+    float: left;
+    width: 30%;
+    position: relative;
+    right: -40px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.nav-top{
+padding: 4% 0;
+height: 40px;
+}
+
+hr{
+    margin-top: 1.5%;
+    border: 0.5px solid rgba(98, 58, 163, 0.562);
+}
+
+
+#menu-nav {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 40%; 
+    float: left;  
+    text-align: center;
+    margin-top: 2%;
+    font-size: 130%;
+}
+
+#menu-nav ul li{
+    text-align: center;
+    display: inline-block;
+    margin-right: 3.5vw;
+}
+
+.icons{
+    width: 30%;
+    float: left ;
+    margin-top: 2%;
+}
+
+.icons img{
+    float: right;
+    justify-content:space-between;  
+    margin-right: 3.5vw;
+    display: flex;
+    width: 10%;
+}
+
+.buscar{
+    position: absolute;
+    padding: 5px;
+}
+
+.buscar input{
+    width: 0px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 0px solid silver;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+}
+
+.btn{
+    position: absolute;
+    top: 0;
+    right: -30px;
+    width: 355px;
+    height: 355px;
+    line-height: 55px;
+    text-align: center;
+    color: rgba(98, 58, 163, 0.562);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.buscar:hover input{
+    width: 140px;
+}
+
+.buscar input:focus{
+    width: 240px;
+}
+
+.hero-image {
+    background-image:  url("../images/Fondo1.png");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;  
+  }
+  
+.hero-text {
+    text-align: center;
+    font-family: "Segoe Script";
+    font-size: 220%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+.hero-text h1{
+    font-weight: 100;
+}
+
+.hero-text2{
+    text-align: center;
+    font-family: "Segoe Script";
+    font-size: 220%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.hero-text2 h1{
+    font-weight: 100;
+}
+
+.custom-image{
+    background-image:  url("../images/Fondo2controles.png");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.custom-text {
+    text-align: center;
+    font-family: "Lucida Sans Italic";
+    font-size: 135%;
+    position: absolute;
+    top: 30%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    color: rgb(100, 100, 100);
+}
+
+.custom-text h1{
+    font-weight: 100;
+}
+
+.boton h1{
+    margin: 0;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+
+}
+
+.boton{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    position: absolute;
+    padding:10px 40px ;
+    background-color: rgb(65, 24, 139);
+    top: 60%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+}
+
+.custom- img{
+    width: 100%;
+    text-align: center;
+}
+
+.categories{
+    text-align: center;
+    margin: 28px 0 0;
+    width: 100%;
+    margin-top: 8%;
+}
+
+
+.categories ul li{
+    text-align: center;
+    display: inline-block;
+    margin-right: 3.5vw;
+}
+
+
+.categories ul li img{
+    width: 60%;
+}
+
+.categories ul li a{
+    display: block;
+    font-size: 120%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2%;
+}
+
+.products{
+    position: relative;
+    right: 20px;
+}
+
+.container-foto{
+    width: 100%;
+    display: inline-block;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.foto1,
+.foto2,
+.foto3,
+.foto4,
+.foto5,
+.foto6,
+.foto7,
+.foto8,
+.foto9,
+.foto10,
+.foto11,
+.foto12{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+.foto{
+    width: 25%;
+    float: left;
+}
+
+.foto-control{
+    width: 97%;
+}
+.foto-icono{
+    position: absolute;
+    width: 10%;
+    bottom: 0;
+    top: 92%;
+    left: 45%;
+}
+
+footer{
+    margin-top: 4%;
+    background-color: rgb(81, 27, 168);
+    padding:210px 170px ;
+    clear:left;  
+}
+
+
+
+.info{
+    width: 70%;
+    color: white;
+    float: left;
+    position: relative;
+    top: -90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info h2{
+    font-size: 35px;
+    margin-bottom: 4%;
+}
+
+.socialmedia{
+    width: 30%;
+    float: right;
+    position: relative;
+    right: -170px;
+
+}
+
+.socialmedia img{
+    width: 18%;
+    margin-left: 4%;
+
+}
+
+
+
+
